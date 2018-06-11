@@ -1,0 +1,86 @@
+@media (max-width: 1080px) {
+    body {
+        font-size: 5px;
+    }
+    .main-container {
+        display: none;
+    }
+    .mobile-main-container {
+        display: grid;
+        
+    }
+    .mobile-logo-container {
+        background-image: url("images/logo-mobile.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .left-arrow-container {
+        height: 100px;
+        width: 100px;
+    }
+    .left-arrow-text {
+        height: 100px;
+    }
+    .mobile-head-container {
+        background-image: url("images/mobile-head.png");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .middle-menu-grid {
+        display: grid;
+        padding-top: 0em;
+        padding-left: 0em;
+        padding-right: 0em;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        color: #88969c;
+        font-family: 'Poppins';
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+}
+@media (max-width: 1450px) {
+    .main-container {
+        grid-template-rows: 610px min-content 1fr;
+        grid-template-columns: 1fr 1075px 1fr;
+    }
+    .head-container{
+        background-image: url("images/destkophead1080.png");
+    }
+    .left-arrow-container,
+    .bottom-arrow-container {
+        height: 32px;
+        width: 32px;
+        background-size: 38%;
+    }
+    .left-arrow-text {
+        height: 32px;
+        font-size: 10px;
+    }
+    .container {
+        height: 900px;
+    }
+    .middle-header {
+        margin-top: -3%;
+        padding-left: 10.5%;
+    }
+    .middle-text-grid {
+        margin-top: -3%;
+        padding-left: 10.5%;
+        padding-right: 15%;
+    }
+    .middle-menu-grid {
+        text-align: center;
+    }
+    .our-card-type-two {
+        font-size: 7.5px;
+    }
+    .partners-grid {
+        font-size: 7.5px;
+    }
+    .activity-grid,
+    .news-grid {
+        font-size: 7.5px;
+    }
+}
